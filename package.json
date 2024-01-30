@@ -10,9 +10,22 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@alvarosabu/prettier-config": "^1.2.0",
+    "@iconify-json/carbon": "^1.1.13",
+    "@marvr/storyblok-rich-text-vue-renderer": "3.2.1",
+    "@nuxt/image-edge": "1.0.0-27840416.dc1ed65",
+    "@nuxtjs/fontaine": "^0.2.4",
+    "@storyblok/nuxt": "^4.6.0",
     "@unocss/nuxt": "^0.58.4",
+    "@unocss/preset-icons": "^0.48.0",
     "nuxt": "^3.9.3",
+    "prettier": "^2.8.1",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "axios": "1.6.0",
+    "@nuxtjs/critters": "^0.4.0"
+
   }
 }
